@@ -16,6 +16,11 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Rosie</title>
   </head>
@@ -34,17 +39,27 @@
           <div class="row no-gutters">
             <div class="col">
               <ul id="nav" class="list-inline menu-container">
-                <li class="col-6 col-sm-3 nav-home list-inline-item">
-                  <a href="#"><span>Home</span></a>
+                <li class="col-6 col-sm-3 nav-home list-inline-item navitem">
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fas fa-home"></i><span>Home</span></a
+                  >
                 </li>
-                <li class="col-6 col-sm-3 nav-resume list-inline-item">
-                  <a href="#"><span>Resume</span></a>
+                <li class="col-6 col-sm-3 nav-resume list-inline-item navitem">
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fas fa-graduation-cap"></i><span>Resume</span></a
+                  >
                 </li>
-                <li class="col-6 col-sm-3 nav-contact list-inline-item">
-                  <a href="#"><span>Contact</span></a>
+                <li class="col-6 col-sm-3 nav-contact list-inline-item navitem">
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fas fa-comments"></i><span>Contact</span></a
+                  >
                 </li>
-                <li class="col-6 col-sm-3 nav-download list-inline-item">
-                  <a href="#"><span>Download</span></a>
+                <li
+                  class="col-6 col-sm-3 nav-download list-inline-item navitem"
+                >
+                  <a href="#" class="hvr-sweep-to-bottom"
+                    ><i class="fas fa-download"></i><span>Download</span></a
+                  >
                 </li>
               </ul>
             </div>
@@ -53,6 +68,51 @@
       </div>
     </header>
     <section></section>
-    <footer></footer>
+    <footer class="container-fluid">
+      <div id="footer-headings" class="row">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">About</h5>
+          <p>Full Stack Web Developer. Skilled in everything from HTML to Django. Code Institute Graduate.</p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Download</h5>
+          <p>Download my CV here!
+          <a href="#" target="_blank">
+          <i class="fas fa-download"></i>
+          </a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Social</h5>
+          <ul class="list-inline">
+          <li class="list-inline-item">
+          <a href="https://en-gb.facebook.com/" target="_blank">
+          <i class="fab fa-facebook"></i>
+          </a>
+          </li>
+          <li class="list-inline-item">
+          <a href="https://twitter.com/Princenavein" target="_blank">
+          <i class="fab fa-twitter-square"></i>
+          </a>
+          </li>
+          <li class="list-inline-item">
+          <a href="https://www.instagram.com/stories/gypsyking101/" target="_blank">
+          <i class="fab fa-instagram"></i>
+          </a>
+          </li>
+          <li class="list-inline-item">
+          <a href="https://www.instagram.com/stories/gypsyking101/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+          </a>
+          </li>
+          <li class="list-inline-item">
+          <a href="https://www.instagram.com/stories/gypsyking101/" target="_blank">
+          <i class="fab fa-youtube"></i>
+          </a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
