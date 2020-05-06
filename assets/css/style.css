@@ -5,6 +5,10 @@
     background-color: #676767;
 
 }
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
 .nav-home{
     background-color: #e67e22;
 }
@@ -19,6 +23,23 @@
 
 .nav-download{
     background-color: #525252;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*---------Header------*/
@@ -162,4 +183,15 @@ footer li i{
 
 #footer-headings{
     padding: 20px;
+}
+
+/*---------about me------*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
